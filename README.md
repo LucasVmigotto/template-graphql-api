@@ -1,31 +1,31 @@
 # template-graphql-api
 
-Template para uma API em GraphQL usando NodeJS e PostgreSQL.
+An GraphQL API template.
 
-## Desenvolvimento
+## Development
 
-Renomear o arquivo `.env.example` para `.env`, e modifique-o caso seja necessário.
+Rename the file `.env.example` to `.env` and change it if necessary.
 
-* Instale as dependências
+* Install the dependencies
 
     ```bash
     docker-compose run --rm api bash
     npm install
     ```
 
-* Inicie  o serviço
+* Start the service
 
     ```bash
     docker-compose up api
     ```
 
-* Teste(s) unitário(s)
+* Unit tests
 
     ```bash
     npm test
     ```
 
-* Compilar _TypeScript_
+* Compile _TypeScript_
 
     ```bash
     npm run compile
