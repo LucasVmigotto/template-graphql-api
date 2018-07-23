@@ -17,8 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.oxxys.lan:amixsi/template-graphql-api.git"
+    "url": "git+https://github.com/LucasVmigotto/template-graphql-api.git"
   },
+  "bugs": {
+    "url": "https://github.com/LucasVmigotto/simple-project-api/issues"
+  },
+  "homepage": "https://github.com/LucasVmigotto/simple-project-api#readme",
   "keywords": [
     "API",
     "GraphQL",
